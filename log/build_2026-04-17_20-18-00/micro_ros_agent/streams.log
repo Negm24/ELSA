@@ -1,0 +1,219 @@
+[0.009s] Invoking command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent
+[0.144s] -- The C compiler identification is GNU 13.3.0
+[0.156s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.329s] -- The CXX compiler identification is GNU 13.3.0
+[0.339s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.459s] -- Configuring done (0.4s)
+[0.462s] -- Generating done (0.0s)
+[0.463s] -- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent
+[0.466s] Invoked command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent
+[0.467s] Invoking command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent -- -j8 -l8
+[0.506s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.530s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.548s] Cloning into 'xrceagent'...
+[4.054s] HEAD is now at 57d0862 Release v2.4.2
+[4.096s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[4.115s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[4.137s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[4.146s] loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[4.192s] -- The C compiler identification is GNU 13.3.0
+[4.201s] -- Detecting C compiler ABI info
+[4.271s] -- Detecting C compiler ABI info - done
+[4.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.278s] -- Detecting C compile features
+[4.278s] -- Detecting C compile features - done
+[4.318s] -- The CXX compiler identification is GNU 13.3.0
+[4.329s] -- Detecting CXX compiler ABI info
+[4.410s] -- Detecting CXX compiler ABI info - done
+[4.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.417s] -- Detecting CXX compile features
+[4.417s] -- Detecting CXX compile features - done
+[4.452s] -- Configuring done (0.3s)
+[4.454s] -- Generating done (0.0s)
+[4.455s] -- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.470s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.502s] [  6%] [34m[1mCreating directories for 'spdlog'[0m
+[4.522s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[4.542s] Cloning into 'spdlog'...
+[19.261s] HEAD is now at eb322062 Bump version to 1.9.2
+[19.305s] [ 18%] [34m[1mPerforming update step for 'spdlog'[0m
+[19.324s] [ 25%] [34m[1mNo patch step for 'spdlog'[0m
+[19.344s] [ 31%] [34m[1mPerforming configure step for 'spdlog'[0m
+[19.350s] loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake
+[19.401s] -- The CXX compiler identification is GNU 13.3.0
+[19.413s] -- Detecting CXX compiler ABI info
+[19.488s] -- Detecting CXX compiler ABI info - done
+[19.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[19.495s] -- Detecting CXX compile features
+[19.496s] -- Detecting CXX compile features - done
+[19.496s] -- Build spdlog: 1.9.2
+[19.499s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[19.590s] -- Found Threads: TRUE  
+[19.590s] -- Build type: Release
+[19.591s] -- Generating example(s)
+[19.592s] -- Generating install
+[19.599s] -- Configuring done (0.2s)
+[19.605s] -- Generating done (0.0s)
+[19.605s] -- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+[19.620s] [ 37%] [34m[1mPerforming build step for 'spdlog'[0m
+[19.654s] [ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[19.655s] [ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[19.655s] [ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[19.656s] [ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[19.656s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[19.656s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[19.656s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[25.897s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[25.937s] [ 80%] Built target spdlog
+[25.953s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[29.198s] [100%] [32m[1mLinking CXX executable example[0m
+[29.266s] [100%] Built target example
+[29.285s] [ 43%] [34m[1mPerforming install step for 'spdlog'[0m
+[29.330s] [ 80%] Built target spdlog
+[29.348s] [100%] Built target example
+[29.362s] [36mInstall the project...[0m
+[29.371s] -- Install configuration: "Release"
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[29.372s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[29.373s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[29.374s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[29.375s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[29.376s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[29.377s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[29.378s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[29.379s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[29.380s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[29.381s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[29.382s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[29.383s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[29.383s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[29.383s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[29.383s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[29.383s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[29.384s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[29.384s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[29.384s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[29.384s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[29.385s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[29.386s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[29.387s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[29.387s] -- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[29.400s] [ 50%] [34m[1mCompleted 'spdlog'[0m
+[29.431s] [ 50%] Built target spdlog
+[29.446s] [ 56%] [34m[1mCreating directories for 'uagent'[0m
+[29.465s] [ 62%] [34m[1mNo download step for 'uagent'[0m
+[29.484s] [ 68%] [34m[1mNo update step for 'uagent'[0m
+[29.502s] [ 75%] [34m[1mNo patch step for 'uagent'[0m
+[29.530s] [ 81%] [34m[1mPerforming configure step for 'uagent'[0m
+[29.537s] loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[29.541s] -- Setting build type to 'Release' as none was specified.
+[29.551s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[29.551s]   Could not find a configuration file for package "fastcdr" that is
+[29.551s]   compatible with requested version "1".
+[29.551s] 
+[29.551s]   The following configuration files were considered but not accepted:
+[29.551s] 
+[29.551s]     /opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+[29.551s] 
+[29.551s] 
+[29.551s] [0m
+[29.551s] -- Configuring incomplete, errors occurred!
+[29.552s] gmake[5]: *** [CMakeFiles/uagent.dir/build.make:94: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[29.552s] gmake[4]: *** [CMakeFiles/Makefile2:111: CMakeFiles/uagent.dir/all] Error 2
+[29.552s] gmake[3]: *** [Makefile:91: all] Error 2
+[29.552s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[29.553s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[29.553s] gmake: *** [Makefile:91: all] Error 2
+[29.554s] Invoked command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent -- -j8 -l8

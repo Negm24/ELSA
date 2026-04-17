@@ -1,0 +1,2 @@
+[console_scripts]
+room_reader = campus_vision.room_detector:main

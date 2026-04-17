@@ -1,0 +1,37 @@
+[1.124s] Invoking command in '/home/youssef_negm_24/Desktop/ELSA2/ws/src/campus_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vision_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/campus_vision build --build-base /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build install --record /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/install.log --single-version-externally-managed install_data
+[1.454s] running egg_info
+[1.454s] creating ../../build/campus_vision/campus_vision.egg-info
+[1.479s] writing ../../build/campus_vision/campus_vision.egg-info/PKG-INFO
+[1.479s] writing dependency_links to ../../build/campus_vision/campus_vision.egg-info/dependency_links.txt
+[1.479s] writing entry points to ../../build/campus_vision/campus_vision.egg-info/entry_points.txt
+[1.480s] writing requirements to ../../build/campus_vision/campus_vision.egg-info/requires.txt
+[1.480s] writing top-level names to ../../build/campus_vision/campus_vision.egg-info/top_level.txt
+[1.480s] writing manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+[1.534s] reading manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+[1.534s] writing manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.535s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build
+[1.535s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib
+[1.535s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+[1.535s] copying campus_vision/room_detector.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+[1.535s] copying campus_vision/__init__.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+[1.535s] running install
+[1.543s] running install_lib
+[1.568s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+[1.568s] copying /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision/room_detector.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+[1.569s] copying /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision/__init__.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+[1.569s] byte-compiling /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision/room_detector.py to room_detector.cpython-312.pyc
+[1.570s] byte-compiling /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision/__init__.py to __init__.cpython-312.pyc
+[1.570s] running install_data
+[1.570s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index
+[1.571s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index
+[1.571s] creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index/packages
+[1.571s] copying resource/campus_vision -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index/packages
+[1.571s] copying package.xml -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/campus_vision
+[1.571s] running install_egg_info
+[1.595s] Copying ../../build/campus_vision/campus_vision.egg-info to /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision-0.0.0-py3.12.egg-info
+[1.596s] running install_scripts
+[1.775s] Installing room_reader script to /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/campus_vision
+[1.775s] writing list of installed files to '/home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/install.log'
+[1.809s] Invoked command in '/home/youssef_negm_24/Desktop/ELSA2/ws/src/campus_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vision_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/campus_vision build --build-base /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build install --record /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/install.log --single-version-externally-managed install_data

@@ -1,0 +1,793 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000454] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.007660] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.008167] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.008794] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent', '--', '-j8', '-l8'], 'cwd': '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'youssef_negm_24', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/youssef_negm_24/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/youssef_negm_24', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/youssef_negm_24/Desktop/ELSA2/ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/youssef_negm_24/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '1999', 'SYSTEMD_EXEC_PID': '2400', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3955', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA2/ws/install:/home/youssef_negm_24/Desktop/ELSA/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'youssef_negm_24', 'JOURNAL_STREAM': '9:15357', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'youssef_negm_24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/NegmComputer:@/tmp/.ICE-unix/2348,unix/NegmComputer:/tmp/.ICE-unix/2348', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': 'f54165ebc0374c42842f79f80efdfab7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libpthread.so.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/youssef_negm_24/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-74678cd115.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/youssef_negm_24/snap/code/233/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA/ws/install/ros2_funcementals_examples:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/youssef_negm_24/snap/code/233/.local/share:/home/youssef_negm_24/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA/ws/install/ros2_funcementals_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.060927] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.0s)\n'}
+[0.063275] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.064340] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent\n'}
+[0.087763] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[0.099895] (-) TimerEvent: {}
+[0.200393] (-) TimerEvent: {}
+[0.300865] (-) TimerEvent: {}
+[0.401308] (-) TimerEvent: {}
+[0.501790] (-) TimerEvent: {}
+[0.602218] (-) TimerEvent: {}
+[0.702664] (-) TimerEvent: {}
+[0.801798] (micro_ros_agent) StderrLine: {'line': b'Previous HEAD position was 57d0862 Release v2.4.2\n'}
+[0.801980] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 7362281 Release v2.4.3\n'}
+[0.802721] (-) TimerEvent: {}
+[0.846242] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[0.872003] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[0.878836] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[0.883270] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.898610] (micro_ros_agent) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.902789] (-) TimerEvent: {}
+[0.952126] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.954471] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.002973] (-) TimerEvent: {}
+[1.033014] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.033790] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.036882] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.2s)\n'}
+[1.044078] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.044658] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[1.059727] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[1.097456] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[1.097704] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[1.097771] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[1.097826] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[1.097879] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[1.097938] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[1.097994] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[1.098054] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[1.103126] (-) TimerEvent: {}
+[1.203502] (-) TimerEvent: {}
+[1.305439] (-) TimerEvent: {}
+[1.410442] (-) TimerEvent: {}
+[1.510795] (-) TimerEvent: {}
+[1.611161] (-) TimerEvent: {}
+[1.713691] (-) TimerEvent: {}
+[1.814721] (-) TimerEvent: {}
+[1.915115] (-) TimerEvent: {}
+[2.017080] (-) TimerEvent: {}
+[2.117519] (-) TimerEvent: {}
+[2.219612] (-) TimerEvent: {}
+[2.321556] (-) TimerEvent: {}
+[2.423440] (-) TimerEvent: {}
+[2.469994] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[2.470837] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[2.497504] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[2.523560] (-) TimerEvent: {}
+[2.625559] (-) TimerEvent: {}
+[2.725921] (-) TimerEvent: {}
+[2.828492] (-) TimerEvent: {}
+[2.928848] (-) TimerEvent: {}
+[3.030015] (-) TimerEvent: {}
+[3.134510] (-) TimerEvent: {}
+[3.237796] (-) TimerEvent: {}
+[3.338291] (-) TimerEvent: {}
+[3.438805] (-) TimerEvent: {}
+[3.539547] (-) TimerEvent: {}
+[3.640059] (-) TimerEvent: {}
+[3.742449] (-) TimerEvent: {}
+[3.845441] (-) TimerEvent: {}
+[3.884522] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[3.945571] (-) TimerEvent: {}
+[4.046013] (-) TimerEvent: {}
+[4.148449] (-) TimerEvent: {}
+[4.252442] (-) TimerEvent: {}
+[4.353029] (-) TimerEvent: {}
+[4.456495] (-) TimerEvent: {}
+[4.556892] (-) TimerEvent: {}
+[4.657812] (-) TimerEvent: {}
+[4.758657] (-) TimerEvent: {}
+[4.859569] (-) TimerEvent: {}
+[4.962589] (-) TimerEvent: {}
+[5.063010] (-) TimerEvent: {}
+[5.163895] (-) TimerEvent: {}
+[5.268671] (-) TimerEvent: {}
+[5.370448] (-) TimerEvent: {}
+[5.470827] (-) TimerEvent: {}
+[5.573573] (-) TimerEvent: {}
+[5.676468] (-) TimerEvent: {}
+[5.778516] (-) TimerEvent: {}
+[5.879103] (-) TimerEvent: {}
+[5.979564] (-) TimerEvent: {}
+[6.082428] (-) TimerEvent: {}
+[6.182821] (-) TimerEvent: {}
+[6.283186] (-) TimerEvent: {}
+[6.385437] (-) TimerEvent: {}
+[6.486411] (-) TimerEvent: {}
+[6.587175] (-) TimerEvent: {}
+[6.626252] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[6.688491] (-) TimerEvent: {}
+[6.788864] (-) TimerEvent: {}
+[6.891783] (-) TimerEvent: {}
+[6.992156] (-) TimerEvent: {}
+[7.094090] (-) TimerEvent: {}
+[7.194589] (-) TimerEvent: {}
+[7.295625] (-) TimerEvent: {}
+[7.321896] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[7.396503] (-) TimerEvent: {}
+[7.497914] (-) TimerEvent: {}
+[7.598272] (-) TimerEvent: {}
+[7.699179] (-) TimerEvent: {}
+[7.745510] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[7.799299] (-) TimerEvent: {}
+[7.901435] (-) TimerEvent: {}
+[8.001931] (-) TimerEvent: {}
+[8.104611] (-) TimerEvent: {}
+[8.205010] (-) TimerEvent: {}
+[8.254443] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[8.305279] (-) TimerEvent: {}
+[8.405648] (-) TimerEvent: {}
+[8.506098] (-) TimerEvent: {}
+[8.606919] (-) TimerEvent: {}
+[8.711655] (-) TimerEvent: {}
+[8.812444] (-) TimerEvent: {}
+[8.913299] (-) TimerEvent: {}
+[9.011829] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[9.013394] (-) TimerEvent: {}
+[9.030421] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[9.113532] (-) TimerEvent: {}
+[9.216430] (-) TimerEvent: {}
+[9.318444] (-) TimerEvent: {}
+[9.419170] (-) TimerEvent: {}
+[9.515107] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[9.519285] (-) TimerEvent: {}
+[9.621449] (-) TimerEvent: {}
+[9.724444] (-) TimerEvent: {}
+[9.819723] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[9.826443] (-) TimerEvent: {}
+[9.928435] (-) TimerEvent: {}
+[10.030451] (-) TimerEvent: {}
+[10.132461] (-) TimerEvent: {}
+[10.232873] (-) TimerEvent: {}
+[10.333685] (-) TimerEvent: {}
+[10.434149] (-) TimerEvent: {}
+[10.536944] (-) TimerEvent: {}
+[10.543236] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[10.638562] (-) TimerEvent: {}
+[10.740455] (-) TimerEvent: {}
+[10.843443] (-) TimerEvent: {}
+[10.945435] (-) TimerEvent: {}
+[11.045825] (-) TimerEvent: {}
+[11.148442] (-) TimerEvent: {}
+[11.251450] (-) TimerEvent: {}
+[11.354445] (-) TimerEvent: {}
+[11.454909] (-) TimerEvent: {}
+[11.556555] (-) TimerEvent: {}
+[11.657567] (-) TimerEvent: {}
+[11.757944] (-) TimerEvent: {}
+[11.858308] (-) TimerEvent: {}
+[11.958815] (-) TimerEvent: {}
+[12.059450] (-) TimerEvent: {}
+[12.104707] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[12.159574] (-) TimerEvent: {}
+[12.260115] (-) TimerEvent: {}
+[12.361209] (-) TimerEvent: {}
+[12.407496] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[12.446639] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[12.461688] (-) TimerEvent: {}
+[12.565445] (-) TimerEvent: {}
+[12.666052] (-) TimerEvent: {}
+[12.768441] (-) TimerEvent: {}
+[12.869437] (-) TimerEvent: {}
+[12.970291] (-) TimerEvent: {}
+[13.071682] (-) TimerEvent: {}
+[13.172152] (-) TimerEvent: {}
+[13.273486] (-) TimerEvent: {}
+[13.314880] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[13.373616] (-) TimerEvent: {}
+[13.474424] (-) TimerEvent: {}
+[13.578467] (-) TimerEvent: {}
+[13.630678] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[13.681455] (-) TimerEvent: {}
+[13.781838] (-) TimerEvent: {}
+[13.884455] (-) TimerEvent: {}
+[13.984839] (-) TimerEvent: {}
+[14.085408] (-) TimerEvent: {}
+[14.185788] (-) TimerEvent: {}
+[14.286151] (-) TimerEvent: {}
+[14.388455] (-) TimerEvent: {}
+[14.461590] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[14.488579] (-) TimerEvent: {}
+[14.589433] (-) TimerEvent: {}
+[14.691470] (-) TimerEvent: {}
+[14.792531] (-) TimerEvent: {}
+[14.894633] (-) TimerEvent: {}
+[14.994993] (-) TimerEvent: {}
+[15.095520] (-) TimerEvent: {}
+[15.195974] (-) TimerEvent: {}
+[15.296539] (-) TimerEvent: {}
+[15.401441] (-) TimerEvent: {}
+[15.501819] (-) TimerEvent: {}
+[15.602241] (-) TimerEvent: {}
+[15.702634] (-) TimerEvent: {}
+[15.803586] (-) TimerEvent: {}
+[15.906558] (-) TimerEvent: {}
+[16.006944] (-) TimerEvent: {}
+[16.107391] (-) TimerEvent: {}
+[16.209766] (-) TimerEvent: {}
+[16.310211] (-) TimerEvent: {}
+[16.412445] (-) TimerEvent: {}
+[16.413197] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[16.515443] (-) TimerEvent: {}
+[16.615820] (-) TimerEvent: {}
+[16.716509] (-) TimerEvent: {}
+[16.816872] (-) TimerEvent: {}
+[16.918458] (-) TimerEvent: {}
+[17.019278] (-) TimerEvent: {}
+[17.122442] (-) TimerEvent: {}
+[17.222817] (-) TimerEvent: {}
+[17.323319] (-) TimerEvent: {}
+[17.425449] (-) TimerEvent: {}
+[17.525851] (-) TimerEvent: {}
+[17.629674] (-) TimerEvent: {}
+[17.732434] (-) TimerEvent: {}
+[17.833182] (-) TimerEvent: {}
+[17.938442] (-) TimerEvent: {}
+[18.042444] (-) TimerEvent: {}
+[18.142832] (-) TimerEvent: {}
+[18.245489] (-) TimerEvent: {}
+[18.345915] (-) TimerEvent: {}
+[18.439604] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[18.441705] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[18.446177] (-) TimerEvent: {}
+[18.546587] (-) TimerEvent: {}
+[18.648628] (-) TimerEvent: {}
+[18.748985] (-) TimerEvent: {}
+[18.849372] (-) TimerEvent: {}
+[18.951454] (-) TimerEvent: {}
+[19.053553] (-) TimerEvent: {}
+[19.156463] (-) TimerEvent: {}
+[19.160519] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[19.256608] (-) TimerEvent: {}
+[19.284759] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[19.356759] (-) TimerEvent: {}
+[19.457180] (-) TimerEvent: {}
+[19.557545] (-) TimerEvent: {}
+[19.657909] (-) TimerEvent: {}
+[19.758263] (-) TimerEvent: {}
+[19.860459] (-) TimerEvent: {}
+[19.961802] (-) TimerEvent: {}
+[20.066215] (-) TimerEvent: {}
+[20.168226] (-) TimerEvent: {}
+[20.269260] (-) TimerEvent: {}
+[20.373579] (-) TimerEvent: {}
+[20.475449] (-) TimerEvent: {}
+[20.564371] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[20.576431] (-) TimerEvent: {}
+[20.677191] (-) TimerEvent: {}
+[20.780472] (-) TimerEvent: {}
+[20.882449] (-) TimerEvent: {}
+[20.985445] (-) TimerEvent: {}
+[21.069605] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[21.085583] (-) TimerEvent: {}
+[21.186320] (-) TimerEvent: {}
+[21.289179] (-) TimerEvent: {}
+[21.389856] (-) TimerEvent: {}
+[21.491437] (-) TimerEvent: {}
+[21.591800] (-) TimerEvent: {}
+[21.692460] (-) TimerEvent: {}
+[21.723592] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[21.792583] (-) TimerEvent: {}
+[21.893082] (-) TimerEvent: {}
+[21.995436] (-) TimerEvent: {}
+[22.096442] (-) TimerEvent: {}
+[22.198512] (-) TimerEvent: {}
+[22.247232] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[22.298650] (-) TimerEvent: {}
+[22.399444] (-) TimerEvent: {}
+[22.501535] (-) TimerEvent: {}
+[22.602380] (-) TimerEvent: {}
+[22.704473] (-) TimerEvent: {}
+[22.804919] (-) TimerEvent: {}
+[22.828603] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[22.905042] (-) TimerEvent: {}
+[23.006433] (-) TimerEvent: {}
+[23.106794] (-) TimerEvent: {}
+[23.207764] (-) TimerEvent: {}
+[23.311045] (-) TimerEvent: {}
+[23.411427] (-) TimerEvent: {}
+[23.511806] (-) TimerEvent: {}
+[23.612308] (-) TimerEvent: {}
+[23.715753] (-) TimerEvent: {}
+[23.816157] (-) TimerEvent: {}
+[23.916692] (-) TimerEvent: {}
+[24.017267] (-) TimerEvent: {}
+[24.120628] (-) TimerEvent: {}
+[24.172034] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[24.220760] (-) TimerEvent: {}
+[24.321224] (-) TimerEvent: {}
+[24.424487] (-) TimerEvent: {}
+[24.524938] (-) TimerEvent: {}
+[24.573475] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[24.625131] (-) TimerEvent: {}
+[24.656500] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[24.726800] (-) TimerEvent: {}
+[24.827677] (-) TimerEvent: {}
+[24.928165] (-) TimerEvent: {}
+[25.029206] (-) TimerEvent: {}
+[25.130220] (-) TimerEvent: {}
+[25.161446] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[25.232439] (-) TimerEvent: {}
+[25.334133] (-) TimerEvent: {}
+[25.434728] (-) TimerEvent: {}
+[25.536591] (-) TimerEvent: {}
+[25.637103] (-) TimerEvent: {}
+[25.737455] (-) TimerEvent: {}
+[25.837858] (-) TimerEvent: {}
+[25.939747] (-) TimerEvent: {}
+[26.044451] (-) TimerEvent: {}
+[26.144842] (-) TimerEvent: {}
+[26.247450] (-) TimerEvent: {}
+[26.350465] (-) TimerEvent: {}
+[26.451398] (-) TimerEvent: {}
+[26.554445] (-) TimerEvent: {}
+[26.654971] (-) TimerEvent: {}
+[26.755449] (-) TimerEvent: {}
+[26.856437] (-) TimerEvent: {}
+[26.956997] (-) TimerEvent: {}
+[27.058513] (-) TimerEvent: {}
+[27.159059] (-) TimerEvent: {}
+[27.260067] (-) TimerEvent: {}
+[27.360447] (-) TimerEvent: {}
+[27.460856] (-) TimerEvent: {}
+[27.561255] (-) TimerEvent: {}
+[27.661654] (-) TimerEvent: {}
+[27.762075] (-) TimerEvent: {}
+[27.862452] (-) TimerEvent: {}
+[27.962847] (-) TimerEvent: {}
+[28.063238] (-) TimerEvent: {}
+[28.163651] (-) TimerEvent: {}
+[28.264044] (-) TimerEvent: {}
+[28.364448] (-) TimerEvent: {}
+[28.464835] (-) TimerEvent: {}
+[28.565487] (-) TimerEvent: {}
+[28.665869] (-) TimerEvent: {}
+[28.766238] (-) TimerEvent: {}
+[28.866658] (-) TimerEvent: {}
+[28.967046] (-) TimerEvent: {}
+[29.067441] (-) TimerEvent: {}
+[29.167806] (-) TimerEvent: {}
+[29.268168] (-) TimerEvent: {}
+[29.368556] (-) TimerEvent: {}
+[29.468923] (-) TimerEvent: {}
+[29.569285] (-) TimerEvent: {}
+[29.669665] (-) TimerEvent: {}
+[29.770444] (-) TimerEvent: {}
+[29.870867] (-) TimerEvent: {}
+[29.971227] (-) TimerEvent: {}
+[30.071765] (-) TimerEvent: {}
+[30.172725] (-) TimerEvent: {}
+[30.273119] (-) TimerEvent: {}
+[30.373503] (-) TimerEvent: {}
+[30.473915] (-) TimerEvent: {}
+[30.574303] (-) TimerEvent: {}
+[30.674720] (-) TimerEvent: {}
+[30.775096] (-) TimerEvent: {}
+[30.875505] (-) TimerEvent: {}
+[30.975879] (-) TimerEvent: {}
+[31.076248] (-) TimerEvent: {}
+[31.176703] (-) TimerEvent: {}
+[31.277072] (-) TimerEvent: {}
+[31.377444] (-) TimerEvent: {}
+[31.477814] (-) TimerEvent: {}
+[31.578151] (-) TimerEvent: {}
+[31.678418] (-) TimerEvent: {}
+[31.778690] (-) TimerEvent: {}
+[31.883873] (-) TimerEvent: {}
+[31.984166] (-) TimerEvent: {}
+[32.084573] (-) TimerEvent: {}
+[32.184927] (-) TimerEvent: {}
+[32.285218] (-) TimerEvent: {}
+[32.385477] (-) TimerEvent: {}
+[32.485813] (-) TimerEvent: {}
+[32.586143] (-) TimerEvent: {}
+[32.686418] (-) TimerEvent: {}
+[32.786689] (-) TimerEvent: {}
+[32.886952] (-) TimerEvent: {}
+[32.987208] (-) TimerEvent: {}
+[33.087429] (-) TimerEvent: {}
+[33.187798] (-) TimerEvent: {}
+[33.288091] (-) TimerEvent: {}
+[33.388341] (-) TimerEvent: {}
+[33.488601] (-) TimerEvent: {}
+[33.588899] (-) TimerEvent: {}
+[33.689162] (-) TimerEvent: {}
+[33.789429] (-) TimerEvent: {}
+[33.889668] (-) TimerEvent: {}
+[33.989942] (-) TimerEvent: {}
+[34.090291] (-) TimerEvent: {}
+[34.190643] (-) TimerEvent: {}
+[34.290879] (-) TimerEvent: {}
+[34.391138] (-) TimerEvent: {}
+[34.491476] (-) TimerEvent: {}
+[34.545020] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[34.591584] (-) TimerEvent: {}
+[34.691900] (-) TimerEvent: {}
+[34.780515] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[34.792011] (-) TimerEvent: {}
+[34.805020] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[34.892150] (-) TimerEvent: {}
+[34.894436] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[34.913104] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[34.920874] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[34.921062] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3\n'}
+[34.923044] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[34.923225] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""\n'}
+[34.923299] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[34.923370] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent\n'}
+[34.923676] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[34.923746] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[34.923809] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[34.923874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[34.923941] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[34.924005] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[34.924080] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[34.924140] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[34.924201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[34.924263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[34.924332] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[34.924389] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[34.924451] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[34.924513] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[34.924578] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[34.924639] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[34.924694] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[34.924755] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[34.924817] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[34.924870] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[34.924938] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[34.924995] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[34.925063] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[34.925125] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[34.925186] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[34.925248] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[34.925307] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[34.925371] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[34.925493] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[34.925547] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[34.925600] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[34.925683] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[34.925739] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[34.925808] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[34.925879] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[34.925948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[34.926011] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[34.926078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[34.926162] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[34.926243] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[34.926322] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[34.926446] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[34.926530] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[34.926598] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[34.926680] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[34.926760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[34.926828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[34.926912] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[34.926983] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[34.927058] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[34.927140] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[34.927229] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[34.927310] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[34.927408] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[34.927491] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[34.927555] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[34.927633] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[34.927713] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[34.927799] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[34.927888] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[34.927969] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[34.928050] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[34.928118] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[34.928199] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[34.928285] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[34.928373] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[34.928438] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[34.928521] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[34.928604] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[34.928687] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[34.928774] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[34.928841] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[34.928920] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[34.928982] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[34.929245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[34.929329] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[34.929420] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[34.929502] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[34.929585] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[34.929649] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[34.929724] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[34.929807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[34.929879] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[34.929954] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[34.930022] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[34.930093] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[34.930161] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[34.930231] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[34.930301] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[34.930384] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[34.930453] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[34.930526] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[34.930595] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[34.930667] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[34.930763] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[34.930886] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[34.930977] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[34.931058] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[34.931143] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[34.931223] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[34.931319] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[34.931416] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[34.931508] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[34.931585] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[34.931665] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[34.931749] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[34.931828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[34.931909] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[34.931985] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[34.932058] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[34.932132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[34.932203] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[34.932271] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[34.932356] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[34.932436] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[34.932521] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[34.932599] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[34.932694] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[34.932765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[34.932847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[34.932946] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[34.933146] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[34.933263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[34.933497] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[34.933549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[34.933614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[34.933688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[34.933814] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent\n'}
+[34.933885] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include\n'}
+[34.933962] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog\n'}
+[34.934014] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/logger-inl.h\n'}
+[34.934084] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks\n'}
+[34.934155] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[34.934225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[34.934305] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[34.934404] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[34.934500] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[34.934591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[34.934686] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[34.934782] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[34.934884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[34.934966] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[34.935054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[34.935144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[34.935232] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[34.935321] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/sink.h\n'}
+[34.935419] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h\n'}
+[34.935502] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[34.935591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[34.935679] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[34.935769] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[34.935870] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h\n'}
+[34.935949] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[34.936040] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h\n'}
+[34.936132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[34.936238] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[34.936323] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[34.936424] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h\n'}
+[34.936518] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[34.936610] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[34.936711] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h\n'}
+[34.936818] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[34.936902] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[34.936997] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[34.937126] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h\n'}
+[34.937205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/common.h\n'}
+[34.937306] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/formatter.h\n'}
+[34.937393] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details\n'}
+[34.937466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h\n'}
+[34.937559] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h\n'}
+[34.937648] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h\n'}
+[34.937750] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/registry.h\n'}
+[34.937839] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[34.937930] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[34.938020] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/circular_q.h\n'}
+[34.938110] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/file_helper.h\n'}
+[34.938194] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/windows_include.h\n'}
+[34.938291] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h\n'}
+[34.938380] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/log_msg.h\n'}
+[34.938472] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h\n'}
+[34.938568] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h\n'}
+[34.938660] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h\n'}
+[34.938767] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h\n'}
+[34.938848] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/os.h\n'}
+[34.938940] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[34.939036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/os-inl.h\n'}
+[34.939137] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h\n'}
+[34.939235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[34.939343] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[34.939438] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/console_globals.h\n'}
+[34.939529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[34.939617] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h\n'}
+[34.939713] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/details/backtracer.h\n'}
+[34.939806] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h\n'}
+[34.939896] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/async_logger.h\n'}
+[34.939989] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/stopwatch.h\n'}
+[34.940078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/common-inl.h\n'}
+[34.940165] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/logger.h\n'}
+[34.940261] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/tweakme.h\n'}
+[34.940362] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h\n'}
+[34.940449] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/cfg\n'}
+[34.940519] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/cfg/argv.h\n'}
+[34.940605] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[34.940698] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h\n'}
+[34.940793] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/cfg/env.h\n'}
+[34.940883] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/version.h\n'}
+[34.940972] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/async.h\n'}
+[34.941060] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fwd.h\n'}
+[34.941148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/spdlog.h\n'}
+[34.941244] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt\n'}
+[34.941316] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/compile.h\n'}
+[34.941417] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled\n'}
+[34.941490] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[34.941589] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h\n'}
+[34.941693] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[34.941797] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h\n'}
+[34.941951] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[34.942045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[34.942192] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h\n'}
+[34.942298] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h\n'}
+[34.942410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[34.942513] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[34.942619] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h\n'}
+[34.942779] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[34.942908] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[34.943006] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h\n'}
+[34.943100] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h\n'}
+[34.943193] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[34.943287] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h\n'}
+[34.943389] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h\n'}
+[34.943505] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib\n'}
+[34.943576] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/pkgconfig\n'}
+[34.943651] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc\n'}
+[34.943731] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/libspdlog.a\n'}
+[34.944601] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake\n'}
+[34.944679] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake/spdlog\n'}
+[34.944749] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[34.944820] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[34.944892] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[34.944964] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[34.961122] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[34.985464] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[34.992252] (-) TimerEvent: {}
+[35.002155] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[35.027104] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[35.045150] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[35.063003] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[35.080416] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[35.086879] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[35.092314] (-) TimerEvent: {}
+[35.094427] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[35.192421] (-) TimerEvent: {}
+[35.224605] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[35.292484] (-) TimerEvent: {}
+[35.392729] (-) TimerEvent: {}
+[35.418691] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[35.423524] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.492824] (-) TimerEvent: {}
+[35.499206] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[35.500215] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[35.511910] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.6.7 (/opt/ros/jazzy/share/rosidl_cmake/cmake)\n'}
+[35.515484] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[35.526879] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.6.3 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)\n'}
+[35.530440] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 3.1.1 (/opt/ros/jazzy/share/rmw_dds_common/cmake)\n'}
+[35.573709] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[35.590973] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[35.592899] (-) TimerEvent: {}
+[35.602675] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.630611] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[35.654297] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[35.680870] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[35.684231] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[35.688181] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[35.691651] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/jazzy/share/micro_ros_msgs/cmake)\n'}
+[35.692960] (-) TimerEvent: {}
+[35.793165] (-) TimerEvent: {}
+[35.801336] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[35.808745] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[35.811708] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent\n'}
+[35.835438] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[35.873393] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[35.873634] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[35.873775] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[35.874477] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[35.876139] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[35.893291] (-) TimerEvent: {}
+[35.993626] (-) TimerEvent: {}
+[36.094010] (-) TimerEvent: {}
+[36.194372] (-) TimerEvent: {}
+[36.294754] (-) TimerEvent: {}
+[36.395134] (-) TimerEvent: {}
+[36.495518] (-) TimerEvent: {}
+[36.595911] (-) TimerEvent: {}
+[36.696318] (-) TimerEvent: {}
+[36.796709] (-) TimerEvent: {}
+[36.897151] (-) TimerEvent: {}
+[36.998045] (-) TimerEvent: {}
+[37.098503] (-) TimerEvent: {}
+[37.199438] (-) TimerEvent: {}
+[37.299861] (-) TimerEvent: {}
+[37.400416] (-) TimerEvent: {}
+[37.500795] (-) TimerEvent: {}
+[37.601181] (-) TimerEvent: {}
+[37.701531] (-) TimerEvent: {}
+[37.801927] (-) TimerEvent: {}
+[37.902304] (-) TimerEvent: {}
+[38.002696] (-) TimerEvent: {}
+[38.103062] (-) TimerEvent: {}
+[38.203443] (-) TimerEvent: {}
+[38.303842] (-) TimerEvent: {}
+[38.404612] (-) TimerEvent: {}
+[38.505198] (-) TimerEvent: {}
+[38.605580] (-) TimerEvent: {}
+[38.705967] (-) TimerEvent: {}
+[38.806588] (-) TimerEvent: {}
+[38.907452] (-) TimerEvent: {}
+[39.008804] (-) TimerEvent: {}
+[39.109767] (-) TimerEvent: {}
+[39.210342] (-) TimerEvent: {}
+[39.311172] (-) TimerEvent: {}
+[39.412105] (-) TimerEvent: {}
+[39.512498] (-) TimerEvent: {}
+[39.612784] (-) TimerEvent: {}
+[39.713074] (-) TimerEvent: {}
+[39.813374] (-) TimerEvent: {}
+[39.913645] (-) TimerEvent: {}
+[40.013940] (-) TimerEvent: {}
+[40.114231] (-) TimerEvent: {}
+[40.214530] (-) TimerEvent: {}
+[40.314868] (-) TimerEvent: {}
+[40.415183] (-) TimerEvent: {}
+[40.515574] (-) TimerEvent: {}
+[40.616201] (-) TimerEvent: {}
+[40.717326] (-) TimerEvent: {}
+[40.809302] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[40.817420] (-) TimerEvent: {}
+[40.917674] (-) TimerEvent: {}
+[41.018083] (-) TimerEvent: {}
+[41.118583] (-) TimerEvent: {}
+[41.126518] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[41.151582] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[41.169596] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[41.193518] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[41.201945] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[41.202481] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[41.209518] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent'], 'cwd': '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'youssef_negm_24', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/youssef_negm_24/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/youssef_negm_24', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/youssef_negm_24/Desktop/ELSA2/ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/youssef_negm_24/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '1999', 'SYSTEMD_EXEC_PID': '2400', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3955', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA2/ws/install:/home/youssef_negm_24/Desktop/ELSA/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'youssef_negm_24', 'JOURNAL_STREAM': '9:15357', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'youssef_negm_24', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/NegmComputer:@/tmp/.ICE-unix/2348,unix/NegmComputer:/tmp/.ICE-unix/2348', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': 'f54165ebc0374c42842f79f80efdfab7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libpthread.so.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/youssef_negm_24/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-74678cd115.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/youssef_negm_24/snap/code/233/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA/ws/install/ros2_funcementals_examples:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/youssef_negm_24/snap/code/233/.local/share:/home/youssef_negm_24/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/youssef_negm_24/Desktop/ELSA/ws/install/ros2_funcementals_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[41.215514] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.215867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[41.215931] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[41.215998] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[41.216074] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[41.216144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[41.216219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[41.216305] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[41.216401] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[41.216497] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[41.216585] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[41.216671] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[41.216792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[41.216897] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.216987] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[41.217059] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[41.217144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[41.217266] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[41.218139] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[41.218212] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[41.218277] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[41.218678] (-) TimerEvent: {}
+[41.219360] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[41.250154] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[41.250709] (-) EventReactorShutdown: {}

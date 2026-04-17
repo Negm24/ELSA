@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/campus_vision/campus_vision.egg-info
+writing ../../build/campus_vision/campus_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/campus_vision/campus_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/campus_vision/campus_vision.egg-info/entry_points.txt
+writing requirements to ../../build/campus_vision/campus_vision.egg-info/requires.txt
+writing top-level names to ../../build/campus_vision/campus_vision.egg-info/top_level.txt
+writing manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+reading manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/campus_vision/campus_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+copying campus_vision/room_detector.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+copying campus_vision/__init__.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision
+running install
+running install_lib
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+copying /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision/room_detector.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+copying /home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/build/lib/campus_vision/__init__.py -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision
+byte-compiling /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision/room_detector.py to room_detector.cpython-312.pyc
+byte-compiling /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index
+creating /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index/packages
+copying resource/campus_vision -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/ament_index/resource_index/packages
+copying package.xml -> /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/share/campus_vision
+running install_egg_info
+Copying ../../build/campus_vision/campus_vision.egg-info to /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/python3.12/site-packages/campus_vision-0.0.0-py3.12.egg-info
+running install_scripts
+Installing room_reader script to /home/youssef_negm_24/Desktop/ELSA2/ws/install/campus_vision/lib/campus_vision
+writing list of installed files to '/home/youssef_negm_24/Desktop/ELSA2/ws/build/campus_vision/install.log'

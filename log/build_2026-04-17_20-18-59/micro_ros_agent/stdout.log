@@ -1,0 +1,6 @@
+[  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Configuring incomplete, errors occurred!
