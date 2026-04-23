@@ -9,6 +9,7 @@ setup.py
 ../../build/campus_vision/campus_vision.egg-info/top_level.txt
 ../../build/campus_vision/campus_vision.egg-info/zip-safe
 campus_vision/__init__.py
+campus_vision/junction_detector.py
 campus_vision/room_detector.py
 resource/campus_vision
 test/test_copyright.py

@@ -1,2 +1,0 @@
-Invoking command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent -- -j8 -l8
-Invoked command in '/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent -- -j8 -l8
