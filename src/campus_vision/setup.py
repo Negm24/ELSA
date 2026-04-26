@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'room_detector = campus_vision.room_detector:main',
-            'junction_detector = campus_vision.junction_detector:main',
+            'vision_node = campus_vision.junction_detector:main',
         ],
     },
 )

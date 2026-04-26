@@ -1,3 +1,2 @@
 [console_scripts]
-junction_detector = campus_vision.junction_detector:main
-room_detector = campus_vision.room_detector:main
+vision_node = campus_vision.junction_detector:main

@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent
+source_dir=/home/aly/Desktop/ELSA/ELSA/src/micro-ros-agent/micro_ros_agent
 work_dir=
 

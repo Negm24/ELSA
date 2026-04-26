@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/install/micro_ros_agent"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/tmp"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-stamp"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-stamp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build"
+  "/home/aly/Desktop/ELSA/ELSA/install/micro_ros_agent"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/tmp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-stamp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-stamp${cfgdir}") # cfgdir has leading slash
 endif()

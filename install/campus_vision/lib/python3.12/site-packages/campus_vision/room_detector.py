@@ -2,56 +2,110 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 import cv2
-import easyocr
+from doctr.models import ocr_predictor
+import torch
+import re
 
 class RoomDetector(Node):
     def __init__(self):
         super().__init__('room_detector')
         self.publisher_ = self.create_publisher(String, 'detected_room', 10)
-        self.timer = self.create_timer(2.0, self.detect_callback)  # ← slower timer, less CPU
-        self.cap = cv2.VideoCapture(0)
+        self.timer = self.create_timer(0.2, self.detect_callback)
+        
+        # IP Camera URL
+        ip_camera_url = 'http://admin:admin@192.168.100.78:8081/video' 
+        self.cap = cv2.VideoCapture(ip_camera_url)
+        self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 
-        # Force lower resolution from camera — less data to process
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+        # Initialize DocTR
+        self.model = ocr_predictor(det_arch='db_resnet50', reco_arch='crnn_vgg16_bn', pretrained=True)
+        if torch.cuda.is_available():
+            self.model.cuda()
+            self.get_logger().info('DocTR running on GPU (RTX 3050)')
 
-        self.reader = easyocr.Reader(['en'], gpu=False)
-        self.processing = False  # ← guard flag
-        self.get_logger().info('Vision Node Started. Looking for room numbers...')
+        self.processing = False
+        self.get_logger().info('DEBUG MODE: Checking every word detected...')
 
     def detect_callback(self):
-        # Skip this cycle if previous frame still being processed
         if self.processing:
             return
+        
         self.processing = True
-
         ret, frame = self.cap.read()
         if not ret:
             self.processing = False
             return
 
-        # Resize to half — biggest CPU saver
-        frame = cv2.resize(frame, (320, 240))
+        # 1. CROP THE TOP (Watermark area)
+        # In your screenshot, the watermark takes up a good chunk of the top left.
+        # Let's crop the top 20% instead of 10%.
+        h, w = frame.shape[:2]
+        crop_top = int(h * 0.20) 
+        roi_frame = frame[crop_top:h, :]
+        roi_h, roi_w = roi_frame.shape[:2]
 
-        # Convert to grayscale — EasyOCR works well on grayscale and it's faster
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        rgb_frame = cv2.cvtColor(roi_frame, cv2.COLOR_BGR2RGB)
+        result = self.model([rgb_frame])
+        output = result.export()
 
-        results = self.reader.readtext(gray)
-        for (bbox, text, prob) in results:
-            if any(char.isdigit() for char in text) and prob > 0.5:
-                msg = String()
-                msg.data = text
-                self.publisher_.publish(msg)
-                self.get_logger().info(f'Detected Room: {text} (Confidence: {prob:.2f})')
+        # Pattern for room numbers (at least 2 digits)
+        room_pattern = re.compile(r'\d{2,}')
+
+        # Words to ignore from the "IP Camera Lite" watermark
+        blacklist = ['POWERED', 'CAMERA', 'LITE', 'IOS', 'FRONT', 'BACK']
+
+        for page in output['pages']:
+            for block in page['blocks']:
+                for line in block['lines']:
+                    for word in line['words']:
+                        text = word['value']
+                        prob = word['confidence']
+
+                        # Clean up the text for checking
+                        clean_text = text.upper().replace('_', '').replace('-', '')
+
+                        # --- SMART FILTERING ---
+                        # Skip if it's in the watermark blacklist
+                        if any(b in clean_text for b in blacklist):
+                            continue
+                        
+                        # Only proceed if there's a number and confidence is solid
+                        match = room_pattern.search(text)
+                        if match and prob > 0.6:
+                            room_number = match.group()
+                            
+                            # Log ONLY the success so your terminal stays clean
+                            self.get_logger().info(f'>>> SUCCESS! Extracted Room: {room_number}')
+                            
+                            msg = String()
+                            msg.data = room_number
+                            self.publisher_.publish(msg)
+                            
+                            # Draw feedback
+                            geom = word['geometry']
+                            p1 = (int(geom[0][0] * roi_w), int(geom[1][0] * roi_h)) # Swapped for correct box
+                            p1 = (int(geom[0][0] * roi_w), int(geom[0][1] * roi_h))
+                            p2 = (int(geom[1][0] * roi_w), int(geom[1][1] * roi_h))
+                            cv2.rectangle(roi_frame, p1, p2, (0, 255, 0), 2)
+                            cv2.putText(roi_frame, f"Room {room_number}", (p1[0], p1[1]-5), 
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
         self.processing = False
-        cv2.imshow('Room Vision', frame)
+        cv2.imshow('Room Vision Debug', roi_frame)
         cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)
     node = RoomDetector()
-    rclpy.spin(node)
-    node.cap.release()
-    cv2.destroyAllWindows()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.cap.release()
+        cv2.destroyAllWindows()
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

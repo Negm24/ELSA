@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src"
-  "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src"
+  "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake
-source_dir=/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog
-work_dir=/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src
+command=/usr/bin/cmake;-P;/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake
+source_dir=/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog
+work_dir=/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src
 repository=https://github.com/gabime/spdlog.git
 remote=origin
 init_submodules=TRUE

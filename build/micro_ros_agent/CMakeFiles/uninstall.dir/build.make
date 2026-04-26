@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent
+CMAKE_SOURCE_DIR = /home/aly/Desktop/ELSA/ELSA/src/micro-ros-agent/micro_ros_agent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent
+CMAKE_BINARY_DIR = /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aly/Desktop/ELSA/ELSA/src/micro-ros-agent/micro_ros_agent /home/aly/Desktop/ELSA/ELSA/src/micro-ros-agent/micro_ros_agent /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

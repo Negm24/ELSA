@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youssef_negm_24/Desktop/ELSA2/ws/src/micro-ros-agent/micro_ros_agent
+CMAKE_SOURCE_DIR = /home/aly/Desktop/ELSA/ELSA/src/micro-ros-agent/micro_ros_agent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent
+CMAKE_BINARY_DIR = /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/CMakeFiles /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/CMakeFiles /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

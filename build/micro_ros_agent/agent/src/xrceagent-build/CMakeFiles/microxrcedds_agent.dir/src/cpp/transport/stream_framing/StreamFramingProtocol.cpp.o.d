@@ -1,8 +1,8 @@
 CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o: \
- /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp \
+ /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp \
  /usr/include/stdc-predef.h \
- /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp \
- /home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/TransportRc.hpp \
+ /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp \
+ /home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/TransportRc.hpp \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/youssef_negm_24/Desktop/ELSA2/ws/build/micro_ros_agent/agent/src/xrceagent
+source_dir=/home/aly/Desktop/ELSA/ELSA/build/micro_ros_agent/agent/src/xrceagent
 work_dir=
 
